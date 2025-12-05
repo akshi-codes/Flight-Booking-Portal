@@ -7,6 +7,7 @@ import homebg from '../assets/home-bg.jpg'
 export default function AirportList() {
   const [airports, setAirports] = useState([])
 
+  //Fetches all the airports using getAllAirports()
   useEffect(() => {
     getAllAirports()
       .then((res) => {

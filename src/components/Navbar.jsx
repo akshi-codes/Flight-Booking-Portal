@@ -25,7 +25,16 @@ export default function Navbar() {
                     </ul>
                     </details>
                 </li>
-                <li><a href="/login">Logout</a></li>
+                <li>
+                    <a
+                        href="/login"
+                        onClick={() => {
+                        localStorage.removeItem("userID");
+                        localStorage.removeItem("username");
+                        }}
+                    >
+                        Logout
+                    </a></li>
                 </ul>
             </div>
         </div>
