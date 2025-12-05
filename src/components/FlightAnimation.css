@@ -1,0 +1,805 @@
+
+.aeroplane-container {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  background-color: transparent;
+  overflow: hidden;
+}
+
+.aeroplane-icon svg {
+  width: 21px;
+}
+
+
+.aeroplane-1 {
+    position: absolute;
+    top: 72%;
+    left: 34%;
+}
+
+.aeroplane-1 .aeroplane-icon {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: rotate(225deg);
+  -webkit-animation: move-aeroplane-1 10s infinite;
+  animation: move-aeroplane-1 10s infinite;
+}
+
+.aeroplane-1 .aeroplane-icon:after {
+  position: absolute;
+  right: 0;
+  top: 15px;
+  content: '';
+  height: 1px;
+  width: 0px;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,ffffff+100 */
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(left, rgba(0,0,0,0.09) 0%, #ffffff 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, rgba(0,0,0,0.09) 0%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, rgba(0,0,0,0.09) 0%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
+  -webkit-animation: line-1 10s infinite;
+  animation: line-1 10s infinite;
+  animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes move-aeroplane-1 {
+  0% {
+    bottom: 10px;
+    right: 10px;
+    opacity: 0;
+    transform: rotate(225deg) scale(0);
+  }
+
+  30% {
+    bottom: 10px;
+    right: 10px;
+    opacity: 1;
+    transform: rotate(225deg) scale(1);
+  }
+
+  70% {
+    bottom: 200px;
+    right: 180px;
+    opacity: 1;
+    transform: rotate(225deg) scale(1);
+  }
+
+  100% {
+    bottom: 200px;
+    right: 180px;
+    opacity: 0;
+    transform: rotate(225deg) scale(0);
+  }
+}
+@keyframes move-aeroplane-1 {
+  0% {
+    bottom: 10px;
+    right: 10px;
+    opacity: 0;
+    transform: rotate(225deg) scale(0);
+  }
+
+  30% {
+    bottom: 10px;
+    right: 10px;
+    opacity: 1;
+    transform: rotate(225deg) scale(1);
+  }
+
+  70% {
+    bottom: 200px;
+    right: 180px;
+    opacity: 1;
+    transform: rotate(225deg) scale(1);
+  }
+
+  100% {
+    bottom: 200px;
+    right: 180px;
+    opacity: 0;
+    transform: rotate(225deg) scale(0);
+  }
+}
+
+@-webkit-keyframes line-1 {
+  0% {
+    width: 0;
+    opacity: 0;
+  }
+
+  30% {
+    width: 0;
+    opacity: 0;
+  }
+
+  45% {
+    width: 100px;
+    opacity: 1;
+  }
+
+  55% {
+    width: 100px;
+    opacity: 1;
+  }
+
+  70% {
+    width: 0;
+    opacity: 0;
+  }
+
+  100% {
+    width: 0;
+    opacity: 0;
+  }
+}
+
+@keyframes line-1 {
+  0% {
+    width: 0;
+    opacity: 0;
+  }
+
+  30% {
+    width: 0;
+    opacity: 0;
+  }
+
+  45% {
+    width: 100px;
+    opacity: 1;
+  }
+
+  55% {
+    width: 100px;
+    opacity: 1;
+  }
+
+  70% {
+    width: 0;
+    opacity: 0;
+  }
+
+  100% {
+    width: 0;
+    opacity: 0;
+  }
+}
+
+
+.aeroplane-2 {
+    position: absolute;
+    top: 16%;
+    left: 56%;
+}
+
+.aeroplane-2 .aeroplane-icon {
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-animation: move-aeroplane-2 15s infinite;
+  animation: move-aeroplane-2 15s infinite;
+}
+
+.aeroplane-2 .aeroplane-icon:after {
+  position: absolute;
+  right: 0;
+  top: 15px;
+  content: '';
+  height: 1px;
+  width: 0;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,ffffff+100 */
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(left, rgba(0,0,0,0.09) 0%, #ffffff 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, rgba(0,0,0,0.09) 0%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, rgba(0,0,0,0.09) 0%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
+  -webkit-animation: line-2 15s infinite;
+  animation: line-2 15s infinite;
+  animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes move-aeroplane-2 {
+  0% {
+    left: 10px;
+    opacity: 0;
+    transform: scale(0);
+  }
+
+  30% {
+    left: 10px;
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  70% {
+    left: 500px;
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  100% {
+    left: 500px;
+    opacity: 0;
+    transform: scale(0);
+  }
+}
+@keyframes move-aeroplane-2 {
+  0% {
+    left: 10px;
+    opacity: 0;
+    transform: scale(0);
+  }
+
+  30% {
+    left: 10px;
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  70% {
+    left: 500px;
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  100% {
+    left: 500px;
+    opacity: 0;
+    transform: scale(0);
+  }
+}
+
+@-webkit-keyframes line-2 {
+  0% {
+    width: 0;
+    opacity: 0;
+  }
+
+  30% {
+    width: 0;
+    opacity: 0;
+  }
+
+  45% {
+    width: 100px;
+    opacity: 1;
+  }
+
+  55% {
+    width: 100px;
+    opacity: 1;
+  }
+
+  70% {
+    width: 0;
+    opacity: 0;
+  }
+
+  100% {
+    width: 0;
+    opacity: 0;
+  }
+}
+@keyframes line-2 {
+  0% {
+    width: 0;
+    opacity: 0;
+  }
+
+  30% {
+    width: 0;
+    opacity: 0;
+  }
+
+  45% {
+    width: 100px;
+    opacity: 1;
+  }
+
+  55% {
+    width: 100px;
+    opacity: 1;
+  }
+
+  70% {
+    width: 0;
+    opacity: 0;
+  }
+
+  100% {
+    width: 0;
+    opacity: 0;
+  }
+}
+
+
+.aeroplane-3 {
+    position: absolute;
+    top: 28%;
+    left: 22%;
+}
+
+.aeroplane-3 .aeroplane-icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: rotate(-45deg);
+  -webkit-animation: move-aeroplane-3 13s infinite;
+  animation: move-aeroplane-3 13s infinite;
+}
+
+.aeroplane-3 .aeroplane-icon:before {
+  position: absolute;
+  left: 0;
+  top: 15px;
+  content: '';
+  height: 1px;
+  width: 0px;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,ffffff+100 */
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(left, rgba(0,0,0,0.09) 0%, #ffffff 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, rgba(0,0,0,0.09) 0%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, rgba(0,0,0,0.09) 0%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
+  -webkit-animation: line-3 13s infinite;
+  animation: line-3 13s infinite;
+  animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes move-aeroplane-3 {
+  0% {
+    top: -10px;
+    left: 10px;
+    opacity: 0;
+    transform: rotate(-45deg) scale(0);
+  }
+
+  30% {
+    top: -10px;
+    left: 10px;
+    opacity: 1;
+    transform: rotate(-45deg) scale(1);
+  }
+
+  70% {
+    top: -160px;
+    left: 200px;
+    opacity: 1;
+    transform: rotate(-45deg) scale(1);
+  }
+
+  100% {
+    top: -160px;
+    left: 200px;
+    opacity: 0;
+    transform: rotate(-45deg) scale(0);
+  }
+}
+@keyframes move-aeroplane-3 {
+  0% {
+    top: -10px;
+    left: 10px;
+    opacity: 0;
+    transform: rotate(-45deg) scale(0);
+  }
+
+  30% {
+    top: -10px;
+    left: 10px;
+    opacity: 1;
+    transform: rotate(-45deg) scale(1);
+  }
+
+  70% {
+    top: -160px;
+    left: 200px;
+    opacity: 1;
+    transform: rotate(-45deg) scale(1);
+  }
+
+  100% {
+    top: -160px;
+    left: 200px;
+    opacity: 0;
+    transform: rotate(-45deg) scale(0);
+  }
+}
+
+@-webkit-keyframes line-3 {
+  0% {
+    width: 0;
+    opacity: 0;
+    left: 0;
+  }
+
+  30% {
+    width: 0;
+    opacity: 0;
+    left: 0;
+  }
+
+  45% {
+    width: 100px;
+    opacity: 1;
+    left: -100px;
+  }
+
+  55% {
+    width: 100px;
+    opacity: 1;
+    left: -100px;
+  }
+
+  70% {
+    width: 0;
+    opacity: 0;
+    left: 0;
+  }
+
+  100% {
+    width: 0;
+    opacity: 0;
+    left: 0;
+  }
+}
+@keyframes line-3 {
+  0% {
+    width: 0;
+    opacity: 0;
+    left: 0;
+  }
+
+  30% {
+    width: 0;
+    opacity: 0;
+    left: 0;
+  }
+
+  45% {
+    width: 100px;
+    opacity: 1;
+    left: -100px;
+  }
+
+  55% {
+    width: 100px;
+    opacity: 1;
+    left: -100px;
+  }
+
+  70% {
+    width: 0;
+    opacity: 0;
+    left: 0;
+  }
+
+  100% {
+    width: 0;
+    opacity: 0;
+    left: 0;
+  }
+}
+
+
+.aeroplane-4 {
+    position: absolute;
+    top: 39%;
+    left: 79%;
+}
+
+.aeroplane-4 .aeroplane-icon {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: rotate(90deg);
+  -webkit-animation: move-aeroplane-4 11s infinite;
+  animation: move-aeroplane-4 11s infinite;
+}
+
+.aeroplane-4 .aeroplane-icon:after {
+  position: absolute;
+  right: 0;
+  top: 15px;
+  content: '';
+  height: 1px;
+  width: 0;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,ffffff+100 */
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(left, rgba(0,0,0,0.09) 0%, #ffffff 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, rgba(0,0,0,0.09) 0%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, rgba(0,0,0,0.09) 0%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
+  -webkit-animation: line-4 11s infinite;
+  animation: line-4 11s infinite;
+  animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes move-aeroplane-4 {
+  0% {
+    top: 10px;
+    opacity: 0;
+    transform: rotate(90deg) scale(0);
+  }
+
+  30% {
+    top: 10px;
+    opacity: 1;
+    transform: rotate(90deg) scale(1);
+  }
+
+  70% {
+    top: 250px;
+    opacity: 1;
+    transform: rotate(90deg) scale(1);
+  }
+
+  100% {
+    top: 250px;
+    opacity: 0;
+    transform: rotate(90deg) scale(0);
+  }
+}
+@keyframes move-aeroplane-4 {
+  0% {
+    top: 10px;
+    opacity: 0;
+    transform: rotate(90deg) scale(0);
+  }
+
+  30% {
+    top: 10px;
+    opacity: 1;
+    transform: rotate(90deg) scale(1);
+  }
+
+  70% {
+    top: 250px;
+    opacity: 1;
+    transform: rotate(90deg) scale(1);
+  }
+
+  100% {
+    top: 250px;
+    opacity: 0;
+    transform: rotate(90deg) scale(0);
+  }
+}
+
+@-webkit-keyframes line-4 {
+  0% {
+    width: 0;
+    opacity: 0;
+  }
+
+  30% {
+    width: 0;
+    opacity: 0;
+  }
+
+  45% {
+    width: 100px;
+    opacity: 1;
+  }
+
+  55% {
+    width: 100px;
+    opacity: 1;
+  }
+
+  70% {
+    width: 0;
+    opacity: 0;
+  }
+
+  100% {
+    width: 0;
+    opacity: 0;
+  }
+}
+@keyframes line-4 {
+  0% {
+    width: 0;
+    opacity: 0;
+  }
+
+  30% {
+    width: 0;
+    opacity: 0;
+  }
+
+  45% {
+    width: 100px;
+    opacity: 1;
+  }
+
+  55% {
+    width: 100px;
+    opacity: 1;
+  }
+
+  70% {
+    width: 0;
+    opacity: 0;
+  }
+
+  100% {
+    width: 0;
+    opacity: 0;
+  }
+}
+
+
+.aeroplane-5
+{
+    position: absolute;
+    top: 95%;
+    left: 48%;
+}
+
+.aeroplane-5 .aeroplane-icon {
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-animation: move-aeroplane-5 17s infinite;
+  animation: move-aeroplane-5 17s infinite;
+}
+
+.aeroplane-5 .aeroplane-icon:after {
+  position: absolute;
+  right: 0;
+  top: 15px;
+  content: '';
+  height: 1px;
+  width: 0;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,ffffff+100 */
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(left, rgba(0,0,0,0.09) 0%, #ffffff 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, rgba(0,0,0,0.09) 0%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, rgba(0,0,0,0.09) 0%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
+  -webkit-animation: line-5 17s infinite;
+  animation: line-5 17s infinite;
+  animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes move-aeroplane-5 {
+  0% {
+    left: 10px;
+    opacity: 0;
+    transform: scale(0);
+  }
+
+  30% {
+    left: 10px;
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  70% {
+    left: 200px;
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  100% {
+    left: 200px;
+    opacity: 0;
+    transform: scale(0);
+  }
+}
+@keyframes move-aeroplane-5 {
+  0% {
+    left: 10px;
+    opacity: 0;
+    transform: scale(0);
+  }
+
+  30% {
+    left: 10px;
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  70% {
+    left: 200px;
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  100% {
+    left: 200px;
+    opacity: 0;
+    transform: scale(0);
+  }
+}
+
+@-webkit-keyframes line-5 {
+  0% {
+    width: 0;
+    opacity: 0;
+  }
+
+  30% {
+    width: 0;
+    opacity: 0;
+  }
+
+  45% {
+    width: 100px;
+    opacity: 1;
+  }
+
+  55% {
+    width: 100px;
+    opacity: 1;
+  }
+
+  70% {
+    width: 0;
+    opacity: 0;
+  }
+
+  100% {
+    width: 0;
+    opacity: 0;
+  }
+}
+@keyframes line-5 {
+  0% {
+    width: 0;
+    opacity: 0;
+  }
+
+  30% {
+    width: 0;
+    opacity: 0;
+  }
+
+  45% {
+    width: 100px;
+    opacity: 1;
+  }
+
+  55% {
+    width: 100px;
+    opacity: 1;
+  }
+
+  70% {
+    width: 0;
+    opacity: 0;
+  }
+
+  100% {
+    width: 0;
+    opacity: 0;
+  }
+}
+
+@media (max-width: 1320px) {
+  .aeroplane-container {
+    transform: scale(0.9);
+    left: -30px;
+  }
+}
+
+@media (max-width: 1220px) {
+  .aeroplane-container {
+    transform: scale(0.8);
+    left: -55px;
+  }
+}
+@media (max-width: 1024px) {
+  .aeroplane-container {
+    transform: scale(0.7);
+    left: -55px;
+  }
+}
+
